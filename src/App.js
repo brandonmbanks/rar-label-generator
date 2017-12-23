@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Label from './components/Label'
+import LabelContainer from './components/LabelContainer'
 
 class App extends Component {
   render() {
     return (
       <div className="App row">
-        <Label description="test" id="123"/>
-        <Label description="test" id="123"/>
+        <LabelContainer />
       </div>
     );
   }
